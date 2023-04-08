@@ -7,5 +7,6 @@ target 'Core' do
 
   # Pods for Core
   pod 'Alamofire'
+  pod 'Swinject'
   pod 'RealmSwift', '~>10'
 end
