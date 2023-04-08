@@ -10,13 +10,13 @@ Pod::Spec.new do |s|
  
   s.license = { :type => "MIT", :file => "LICENSE" }
  
-  s.author = { "Julsapargi Nursam" => "egifcb@gmail.com" }
+  s.author = { "Egi10" => "egifcb@gmail.com" }
  
   s.homepage = "https://github.com/Egi10/MovieHub-Core-Module"
  
   s.source = { 
     :git => "https://github.com/Egi10/MovieHub-Core-Module", 
-    :tag => "#{s.version}" 
+    :tag => s.version
   }
  
   s.framework = "UIKit"
