@@ -32,7 +32,8 @@ Pod::Spec.new do |s|
   s.source_files = "Core/**/*.{swift}"
  
   #s.resources = "Core/**/*.{png,jpeg,jpg,storyboard,xib,xcassets}"
-  #s.dependency 'Alamofire'
+  s.dependency 'Alamofire'
+  s.dependency 'RealmSwift', '~>10'
  
   s.swift_version = "5.5"
 
