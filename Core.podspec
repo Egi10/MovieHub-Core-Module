@@ -6,7 +6,7 @@ Pod::Spec.new do |s|
   s.summary = "MovieHub Core.framework for modularization chapter"
   s.requires_arc = true
  
-  s.version = "1.0.0"
+  s.version = "1.0.2"
  
   s.license = { :type => "MIT", :file => "LICENSE" }
  
