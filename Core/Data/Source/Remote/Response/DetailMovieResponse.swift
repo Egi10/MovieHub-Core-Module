@@ -9,7 +9,7 @@ import Foundation
 
 struct DetailMovieResponse: Codable {
     let adult: Bool
-    let backdropPath: String
+    let backdropPath: String?
     let belongsToCollection: BelongsToCollectionResponse?
     let budget: Int
     let genres: [GenreResponse]
